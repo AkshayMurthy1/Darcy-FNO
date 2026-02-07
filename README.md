@@ -8,7 +8,7 @@ This repository implements a **Fourier Neural Operator (FNO)** to solve the 2D s
 
 We consider the Darcy Flow equation on a 2D domain:
 
--∇ · ( a(x, y) ∇u(x, y) ) = f(x, y), u(x, y) = 0   on  ∂Ω
+-∇ · ( a(x, y) ∇u(x, y) ) = f(x, y), with u(x, y) = 0   on  ∂Ω
 
 where:
 
