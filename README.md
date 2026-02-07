@@ -8,9 +8,7 @@ This repository implements a **Fourier Neural Operator (FNO)** to solve the 2D s
 
 We consider the Darcy Flow equation on a 2D domain:
 
-[
--\nabla \cdot (a(x,y) \nabla u(x,y)) = f(x,y), \quad u|_{\partial \Omega} = 0
-]
+-∇ · ( a(x, y) ∇u(x, y) ) = f(x, y), u(x, y) = 0   on  ∂Ω
 
 where:
 
@@ -19,9 +17,7 @@ where:
 
 The task is to learn the operator:
 
-[
-\mathcal{G}: a(x,y) \rightarrow u(x,y)
-]
+G : a(x, y) → u(x, y)
 
 ---
 
